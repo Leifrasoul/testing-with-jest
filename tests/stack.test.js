@@ -22,5 +22,5 @@ test('pop returns last value', () => {
     stack.push(5);
     stack.push(10);
 
-    expect(stack.pop()).toBe(5);
+    expect(stack.pop()).toBe(10);
 });
