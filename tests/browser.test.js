@@ -32,3 +32,17 @@ describe('Clicking "Pusha till stacken"', () => {
         await alert.accept();
     });
 });
+
+test('push button changes the text', async () => {
+    let push = await driver.findElement(By.id('push'));
+
+    await push.click();
+
+    let alert = await driver.switchTo().alert();
+    await alert.sendKeys("Hej");
+    await alert.accept();
+
+    let text = await driver.findElement(By.id('top_of_stack')).getText();
+
+    expect(text).toEqual("Hej");
+});
