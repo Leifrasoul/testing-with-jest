@@ -1,0 +1,26 @@
+{
+  "name": "testing-with-jest",
+  "version": "1.0.0",
+  "description": "A jest + npm lab session ## My changes",
+  "homepage": "https://github.com/Leifrasoul/testing-with-jest#readme",
+  "bugs": {
+    "url": "https://github.com/Leifrasoul/testing-with-jest/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leifrasoul/testing-with-jest.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "type": "commonjs",
+  "main": "src/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest tests"
+  },
+  "dependencies": {
+    "underscore": "^1.13.8"
+  }
+}
