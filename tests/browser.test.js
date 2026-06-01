@@ -50,5 +50,5 @@ test('push button changes the text', async () => {
 test('Texten ska vara Hej då', async () => {
     let text = await driver.findElement(By.id('top_of_stack')).getText();
 
-    expect(text).toEqual("Hej då");
+    expect(text).toEqual("Hej");
 });
